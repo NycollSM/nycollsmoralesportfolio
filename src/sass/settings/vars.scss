@@ -8,9 +8,7 @@ $regular-font: 'Roboto', sans-serif;
 $title-font: 'Bebas Neue', cursive;
 
 // colors 
-$black: #020202;
-$brown-white: #705D56;
-$brown: #503B31;
+$black: #000000;
 $purple-dark: #9097C0;
 $purple: #A7BBEC;
 $global-color: #505657;
@@ -24,11 +22,11 @@ $breakpoint-lg: 990px;
 $breakpoint-xl: 1200px;
 
 // font-sizes
-$txt-huge:  2.5rem;
+$txt-huge:  1.8rem;
 $txt-large:  1.5rem;
 $txt-medium: 1.3rem;
 $txt-small: 1rem;
-$txt-x-huge: 3.3rem;
+$txt-x-huge:  5.3rem;
 $txt-x-large: 6.2rem;
 $txt-xx-huge: 7.2rem;
 
@@ -36,9 +34,9 @@ h1, h2, h3, h4, h5,h6{
   font-family: $title-font;
 
 }
+
 h1 {
-  color: $purple;
-  font-size: $txt-xx-huge;
+  font-size: $txt-x-large;
 }
 
 
@@ -51,4 +49,13 @@ li {
 a{
   text-decoration: none;
   color: $black;
+  font-family: $regular-font;
+}
+
+p{
+  font-family: $regular-font;
+}
+
+h3{
+  //font-size: $txt-large;
 }
