@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "025280c21968c3d595a28bcefa71271e",
+    "revision": "574c182c597ffe1c4b1c354e70aa2764",
     "url": "/nycollsmoralesportfolio/index.html"
   },
   {
-    "revision": "16836592d9d823ddd7d4",
+    "revision": "330520576184e3f028d9",
     "url": "/nycollsmoralesportfolio/static/css/main.b9ab90ff.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nycollsmoralesportfolio/static/js/2.45187d2d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "16836592d9d823ddd7d4",
-    "url": "/nycollsmoralesportfolio/static/js/main.d95db817.chunk.js"
+    "revision": "330520576184e3f028d9",
+    "url": "/nycollsmoralesportfolio/static/js/main.197be24f.chunk.js"
   },
   {
     "revision": "848dd0ec0a285dd8aed7",
