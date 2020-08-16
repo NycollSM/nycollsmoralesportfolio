@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "574c182c597ffe1c4b1c354e70aa2764",
+    "revision": "2b3d9c3c05aec1d7f8fc8b7a8136a9a9",
     "url": "/nycollsmoralesportfolio/index.html"
   },
   {
-    "revision": "330520576184e3f028d9",
+    "revision": "df58fc862efc72d4c79d",
     "url": "/nycollsmoralesportfolio/static/css/main.b9ab90ff.chunk.css"
   },
   {
-    "revision": "074c1a449fc75c90789a",
-    "url": "/nycollsmoralesportfolio/static/js/2.45187d2d.chunk.js"
+    "revision": "f0cccae64a528b324027",
+    "url": "/nycollsmoralesportfolio/static/js/2.e4f2576f.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/nycollsmoralesportfolio/static/js/2.45187d2d.chunk.js.LICENSE.txt"
+    "url": "/nycollsmoralesportfolio/static/js/2.e4f2576f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "330520576184e3f028d9",
-    "url": "/nycollsmoralesportfolio/static/js/main.197be24f.chunk.js"
+    "revision": "df58fc862efc72d4c79d",
+    "url": "/nycollsmoralesportfolio/static/js/main.796e5619.chunk.js"
   },
   {
     "revision": "848dd0ec0a285dd8aed7",
