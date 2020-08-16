@@ -9,7 +9,7 @@ import '../../sass/design/design.scss';
 const Design = () => {
 
   return (
-  <div id="#Design" className='design--container'>
+  <div id="design" className='design--container'>
     <div className="design--projects">
       <h2 className='title-design'>Design</h2>
       <img src={designimg} alt="" className='mockups-img'/>

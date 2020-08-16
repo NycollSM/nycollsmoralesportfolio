@@ -8,7 +8,7 @@ import '../../sass/footer/footer.scss';
 
 const Footer = () => {
   return (
-    <div id='footer'>
+    <div id='contact'>
        <div>
           <a href="https://github.com/NycollSM" target= '_black' className="links"><img src={github}></img></a>
           <a href="mailto:nycollsotomorales21@gmail.com" target= '_black' className="links"><img src={gmail} alt=""></img></a>
