@@ -13,7 +13,7 @@ const Project = () => {
       <h3 className='title-project-item'>Proxy</h3>
       <p className='description--project-items'>Jamstack website, was done with Gatsby.Js, DatoCMS and Netlify. </p>
       <a href="https://sleepy-noyce-80990f.netlify.app/" target="_blank">
-        <img src={project1} alt="cbydbcudn" className='img--project_item'/>
+        <img src={project1} alt="Screenshot of the project" className='img--project_item'/>
       </a>
     </figure> 
     <figure>
