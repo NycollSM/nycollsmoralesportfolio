@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/nycollsmoralesportfolio/static/css/main.b9ab90ff.chunk.css",
+    "main.js": "/nycollsmoralesportfolio/static/js/main.796e5619.chunk.js",
+    "main.js.map": "/nycollsmoralesportfolio/static/js/main.796e5619.chunk.js.map",
+    "runtime-main.js": "/nycollsmoralesportfolio/static/js/runtime-main.950af09e.js",
+    "runtime-main.js.map": "/nycollsmoralesportfolio/static/js/runtime-main.950af09e.js.map",
+    "static/js/2.e4f2576f.chunk.js": "/nycollsmoralesportfolio/static/js/2.e4f2576f.chunk.js",
+    "static/js/2.e4f2576f.chunk.js.map": "/nycollsmoralesportfolio/static/js/2.e4f2576f.chunk.js.map",
+    "index.html": "/nycollsmoralesportfolio/index.html",
+    "precache-manifest.c6b03156eb34282f23d164f2d0cb942f.js": "/nycollsmoralesportfolio/precache-manifest.c6b03156eb34282f23d164f2d0cb942f.js",
+    "service-worker.js": "/nycollsmoralesportfolio/service-worker.js",
+    "static/css/main.b9ab90ff.chunk.css.map": "/nycollsmoralesportfolio/static/css/main.b9ab90ff.chunk.css.map",
+    "static/js/2.e4f2576f.chunk.js.LICENSE.txt": "/nycollsmoralesportfolio/static/js/2.e4f2576f.chunk.js.LICENSE.txt",
+    "static/media/E-commerce.jpg": "/nycollsmoralesportfolio/static/media/E-commerce.0b824ca6.jpg",
+    "static/media/Ecommerce.png": "/nycollsmoralesportfolio/static/media/Ecommerce.33318311.png",
+    "static/media/camaleon.jpg": "/nycollsmoralesportfolio/static/media/camaleon.4ce824d3.jpg",
+    "static/media/cherry.png": "/nycollsmoralesportfolio/static/media/cherry.b35da379.png",
+    "static/media/dogegram-mockup.jpg": "/nycollsmoralesportfolio/static/media/dogegram-mockup.4f7c7e58.jpg",
+    "static/media/mockup.jpg": "/nycollsmoralesportfolio/static/media/mockup.da762be4.jpg",
+    "static/media/municipalidad.jpg": "/nycollsmoralesportfolio/static/media/municipalidad.a3a8e188.jpg",
+    "static/media/proxy2.PNG": "/nycollsmoralesportfolio/static/media/proxy2.75a79ca3.PNG",
+    "static/media/trivias.PNG": "/nycollsmoralesportfolio/static/media/trivias.bed8754c.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.950af09e.js",
+    "static/js/2.e4f2576f.chunk.js",
+    "static/css/main.b9ab90ff.chunk.css",
+    "static/js/main.796e5619.chunk.js"
+  ]
+}
