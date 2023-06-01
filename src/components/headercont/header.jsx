@@ -1,19 +1,44 @@
 import React from 'react';
 import logo from '../../images/cherry.png';
 import '../../sass/header/header.scss';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
 
 const Header = () => {
   return (
-    <div className='header'>
-      <img src={logo} alt="logo" className="logo"/>
-      <p className='name'>Nycoll Soto M</p>
-      <p className="career">Font-End Developer</p>
-      <ul className='nav'>
-        <li className='nav_items'><a href='/#projects'>projects</a> </li>
-        <li className='nav_items'><a href='/#design'>design</a> </li>
-        <li className='nav_items'><a href='/#skills'>skills</a> </li>
-        <li className='nav_items'><a href='/#contact'>contact</a> </li>
-      </ul>
+    <div >
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark"  >
+        <Container>
+          <Row>
+            <Col>
+              <Navbar.Brand href="#home" className='name'>Nycoll Soto M</Navbar.Brand>
+              <p className="career">UX/UI Designer </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+           
+              <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+              <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="me-auto">
+                  <Nav.Link href="#design">Design</Nav.Link>
+                  <Nav.Link href="#projects">Code</Nav.Link>
+                  <Nav.Link href="#skills">Skills</Nav.Link>
+                  <Nav.Link href="#about">About</Nav.Link>
+                  <Nav.Link href="#contact">Contact</Nav.Link>
+                  
+                </Nav>
+                
+              </Navbar.Collapse>
+            </Col>
+          </Row>
+          
+        </Container>
+      </Navbar>
     </div>
   )
 

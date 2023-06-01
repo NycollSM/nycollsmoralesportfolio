@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  //background-color: #d9dbd9;
 }
 
 //font family
-$regular-font: 'Roboto', sans-serif;
+$regular-font: 'Raleway', sans-serif;
 $title-font: 'Bebas Neue', cursive;
 
 // colors 
@@ -14,13 +15,19 @@ $purple-dark: #9097C0;
 $purple: #A7BBEC;
 $global-color: #505657;
 $color-red:  #E82623;
-$color-contrast: #98e0d9;
+$color-contrast: #fefae0;
+// #0c2f51#98e0d9 ;
 $white: #ffffff;
+$bd-violet: #cc129d;
+
 
 // Breakpoints
 $breakpoint-md: 768px;
 $breakpoint-lg: 990px;
 $breakpoint-xl: 1200px;
+
+//buttons
+$btn-color: #838392;
 
 // font-sizes
 $txt-huge:  1.8rem;
@@ -56,6 +63,4 @@ p{
   font-family: $regular-font;
 }
 
-h3{
-  //font-size: $txt-large;
-}
+

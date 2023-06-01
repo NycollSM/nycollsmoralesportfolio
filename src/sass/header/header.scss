@@ -1,7 +1,8 @@
 @import '../settings/vars.scss';
 
 .header{
-  background: #76d6cd;
+  //background: #76d6cd;#7ca6e6;#0c2f51;
+  background: #212f45;
   margin: 0 auto;
   padding: 20px 0;
   text-align: center;
@@ -15,6 +16,7 @@
   grid-column: 2;
   grid-row: 1;
   height: 30px;
+  align-self: end;
   justify-self: center;
   width: 30px;
 }
@@ -24,8 +26,6 @@
   color: $white;
   font-family: $title-font;
   font-size: 18px;
-  grid-column: 2;
-  grid-row: 2;
 }
 .career{
   align-self: center;
