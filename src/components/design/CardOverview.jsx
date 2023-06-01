@@ -23,7 +23,7 @@ function CardDescription () {
       <Container>
       <Row className='py-4'>
           <Col >
-          <h3 className='title-design'>UX Case Studies</h3>
+            <h3 className='title-design'>UX Case Studies</h3>
           </Col>
         </Row>
         {data.cardData.map((item, index)=>{
@@ -35,7 +35,6 @@ function CardDescription () {
               <Col xs={6}>
                 <h3>{item.title}</h3>
                 <p className='fs-4'>{item.desc}</p>
-                
                 <Button variant="primary"  className='btn-bd-primary' onClick={() =>  getData(item.title, item.desc, item.imgScr, item.fullDescr, item.problem, item.duration, item.role, item.responsabilities)}>
                   Find out more
               </Button>
