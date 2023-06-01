@@ -3,8 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import imgPrueba from '../../images/about/about3.jpg';
-import img2 from '../../images/about/about4.jpg'
-import Dalimg from '../../images/about/DalCR.png'
+import img2 from '../../images/about/about4.jpg';
+import Dalimg from '../../images/about/DalCR.png';
 
 const About = () => {
 
