@@ -19,34 +19,32 @@ const Project = () => {
           </Col>
         </Row>
         <Row>
-          <Col className='py-3'>
+          <Col sm className='py-3'>
             <figure >
-              <h3 className='title-project-item'>Proxy</h3>
+              
               <a href="https://sleepy-noyce-80990f.netlify.app/" target="_blank">
-                <img src={project1} alt="cbydbcudn" className='img--project_item'/>
+                <img src={project1} alt="Proxy Image" className='img--project_item'/>
+                <h3 className='title-project-item pt-4'>Proxy</h3>
+                <p className='description--project-items fs-5'>Jamstack website, was done with Gatsby.Js, DatoCMS and Netlify. </p>
               </a>
-              <p className='description--project-items fs-5'>Jamstack website, was done with Gatsby.Js, DatoCMS and Netlify. </p>
             </figure> 
           </Col>
-          <Col className='py-3'>
+          <Col sm className='py-3'>
             <figure>
-              <h3 className='title-project-item'>Trivias</h3>
-              
               <a href="https://hardcore-goldwasser-4fbdfe.netlify.app/" target="_blank">
-                <img src={project2} alt="rhfrnncfncu" className='img--project_item'/>
-                
+                <img src={project2} alt="Trivias Image" className='img--project_item'/>
+                <h3 className='title-project-item pt-4'>Trivias</h3>
+                <p className='description--project-items fs-5'>Progressive Web Application (PWA), was done with Gulp, GridCSS, Javascript Vanilla, and Netlify.</p>
               </a>
-              <p className='description--project-items fs-5'>Progressive Web Application (PWA), was done with Gulp, GridCSS, Javascript Vanilla, and Netlify.</p>
             </figure>
           </Col>
-          <Col className='py-3'>
+          <Col sm className='py-3'>
             <figure>
-              <h3 className='title-project-item'>E-commerce</h3>
-              
               <a href="https://github.com/NycollSM/E-commerce" target="_blank">
-                <img src={project3} alt="ghjk" className='img--project_item'/>
+                <img src={project3} alt="E-commerce image" className='img--project_item'/>
+                <h3 className='title-project-item pt-4'>E-commerce</h3>
+                <p className='description--project-items fs-5'>The idea of this project was see the differences trying React JS with a custom API</p>
               </a>
-              <p className='description--project-items fs-5'>The idea of this project was see the differences trying React JS with a custom API</p>
             </figure>
           </Col>
         </Row>
