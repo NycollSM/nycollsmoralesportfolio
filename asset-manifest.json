@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nycollsmoralesportfolio/static/css/main.bc112d24.css",
-    "main.js": "/nycollsmoralesportfolio/static/js/main.fc0dbdce.js",
+    "main.js": "/nycollsmoralesportfolio/static/js/main.1f8c6c22.js",
     "static/media/subjectline-mk.png": "/nycollsmoralesportfolio/static/media/subjectline-mk.1eacb16b8859978a3288.png",
     "static/media/dr-lookup-mk.png": "/nycollsmoralesportfolio/static/media/dr-lookup-mk.9a7db0d30b18afe13510.png",
     "static/media/Reports-mk.png": "/nycollsmoralesportfolio/static/media/Reports-mk.1604c7f0cc0f50a341a7.png",
@@ -21,10 +21,10 @@
     "static/media/trivias.PNG": "/nycollsmoralesportfolio/static/media/trivias.5e6206e0485486d7eccc.PNG",
     "index.html": "/nycollsmoralesportfolio/index.html",
     "main.bc112d24.css.map": "/nycollsmoralesportfolio/static/css/main.bc112d24.css.map",
-    "main.fc0dbdce.js.map": "/nycollsmoralesportfolio/static/js/main.fc0dbdce.js.map"
+    "main.1f8c6c22.js.map": "/nycollsmoralesportfolio/static/js/main.1f8c6c22.js.map"
   },
   "entrypoints": [
     "static/css/main.bc112d24.css",
-    "static/js/main.fc0dbdce.js"
+    "static/js/main.1f8c6c22.js"
   ]
 }
