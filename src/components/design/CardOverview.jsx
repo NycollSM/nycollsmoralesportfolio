@@ -21,18 +21,18 @@ function CardDescription () {
   return (
     <div id="design" className='color--container'>
       <Container>
-      <Row className='py-4'>
+      <Row className=' py-4'>
           <Col >
             <h3 className='title-design'>UX Case Studies</h3>
           </Col>
         </Row>
         {data.cardData.map((item, index)=>{
           return (
-            <Row className='py-4' key={index}>
-              <Col>
-                <img src={item.imgScr} className='img-fluid' alt="" />
+            <Row className='clearfix py-4 ' key={index}>
+              <Col sm={4}>
+                <img src={item.imgScr} className='img-fluid ' alt="" />
               </Col>
-              <Col xs={6}>
+              <Col sm={8} className='pt-4 px-4'>
                 <h3>{item.title}</h3>
                 <p className='fs-4'>{item.desc}</p>
                 <Button variant="primary"  className='btn-bd-primary' onClick={() =>  getData(item.title, item.desc, item.imgScr, item.fullDescr, item.problem, item.duration, item.role, item.responsabilities)}>

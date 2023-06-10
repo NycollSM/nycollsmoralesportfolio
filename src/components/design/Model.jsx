@@ -24,10 +24,10 @@ export default class Model extends Component {
               <div className="modal-body p-4">
                 <Container className='p-4 border'>
                   <Row>
-                    <Col>
+                    <Col sm={4}>
                       <img src={this.props.img} className='img-fluid'/>
                     </Col>
-                    <Col>
+                    <Col sm={8} className='pt-4 px-4'>
                       <p>{this.props.desc}</p>
                       <p>{this.props.fullDescr}</p>
                       <p>The Problem: <br/> {this.props.problem}</p>
