@@ -21,8 +21,8 @@ export default class Model extends Component {
                 <h5 className="modal-title">{this.props.title}</h5>
                 <button type="button" className="btn-close" onClick={this.props.hide}></button>
               </div>
-              <div className="modal-body p-4">
-                <Container className='p-4 border'>
+              <div className="modal-body">
+                <Container className='p-4'>
                   <Row>
                     <Col sm={4}>
                       <img src={this.props.img} className='img-fluid'/>
