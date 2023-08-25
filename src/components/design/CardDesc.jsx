@@ -2,7 +2,9 @@ import Img1 from '../../images/design/Dashboard-mk.png';
 import Img2 from '../../images/design/Reports-mk.png';
 import Img3 from '../../images/design/dr-lookup-mk.png';
 import Img4 from '../../images/design/subjectline-mk.png';
-import Img5 from '../../images/design/coffee-shop-mockup.png'
+import Img5 from '../../images/design/coffee-shop-mockup.png';
+import Figma1 from '../../images/design/Dashboard-figma.PNG';
+import Gif1 from '../../images/design/video3.gif';
 
 
 const data = {
@@ -17,6 +19,8 @@ const data = {
       duration: "January 2022 - March 2022", 
       role: "UX / UI Designer", 
       responsabilities: "Conducting thorough research, creating written and digital prototypes, performing usability testing, and continually refining the design based on feedback and insights gained.",
+      FigmaImg: Figma1,
+      video: Gif1,
     },
     {
       id: 2,

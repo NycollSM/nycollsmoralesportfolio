@@ -10,7 +10,6 @@ export default class Model extends Component {
     let modelStyle = {
     display: 'block',
     backgroundColor: 'rgba(0,0,0,0.8)',
-
   }
     return (
       <div>
@@ -34,9 +33,16 @@ export default class Model extends Component {
                       <p>Duration: <br/> {this.props.duration}</p>
                       <p>My role: <br/> {this.props.role}</p>
                       <p>Responsabilities: <br/> {this.props.responsabilities} </p>
-                      
-                    
                     </Col>
+                  </Row>
+                  <Row height={288}>
+                    <Col> 
+                      <img src={this.props.FigmaImg} alt=""  className='img-fluid' />
+                    </Col>
+                    <Col>
+                      <img src={this.props.video} alt="" className='img-fluid' />
+                    </Col>
+                    
                   </Row>
                 </Container>
               </div>

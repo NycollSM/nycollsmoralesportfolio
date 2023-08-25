@@ -11,12 +11,12 @@ import Navbar from 'react-bootstrap/Navbar';
 const Header = () => {
   return (
     <div >
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark"  >
+      <Navbar collapseOnSelect expand="lg" className='bg-nav'  variant="dark"  >
         <Container>
           <Row>
             <Col>
-              <Navbar.Brand href="#home" className='name'>Nycoll Soto M</Navbar.Brand>
-              <p className="career">UX/UI Designer </p>
+              <Navbar.Brand href="/Home" className='name'>Nycoll Soto M</Navbar.Brand>
+              
             </Col>
           </Row>
           <Row>
@@ -25,10 +25,10 @@ const Header = () => {
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
-                  <Nav.Link href="#design">Design</Nav.Link>
-                  <Nav.Link href="#projects">Code</Nav.Link>
-                  <Nav.Link href="#skills">Skills</Nav.Link>
-                  <Nav.Link href="#about">About</Nav.Link>
+                  <Nav.Link href="/Home#design">Design</Nav.Link>
+                  <Nav.Link href="/Home#projects">Code</Nav.Link>
+                  <Nav.Link href="/Home#skills">Skills</Nav.Link>
+                  <Nav.Link href="/Home#about">About</Nav.Link>
                   <Nav.Link href="#contact">Contact</Nav.Link>
                   
                 </Nav>

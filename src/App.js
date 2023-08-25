@@ -1,26 +1,29 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Link, Routes ,Route } from 'react-router-dom';
+
+import CMDashboard from './Pages/CMDashboard';
+import TheCoffeeApp from './Pages/TheCoffeeShop';
+import FashionAwards from './Pages/FashionAwards';
 import Header from './components/headercont/header';
-import Project from './components/projects/projects';
-import Design from './components/design/design';
-import Skills from './components/skills/skills';
-import Footer from './components/footer/footer';
-import CardO from './components/design/CardOverview';
-import About from './components/about/about'
+import Home from './Pages/Home';
 import './sass/styles.scss';
 
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <Design></Design>
-      <CardO></CardO>
-      <Project></Project>
-      
-      <Skills></Skills>
-      <About></About>
-      <Footer></Footer>
+     
+      <Router> 
+        <Header></Header>
+        <Routes>
+          <Route exact path="/Home" element={<Home />}> </Route>
+          <Route exact path="/Design-Project/CMDashboard" element={<CMDashboard />}></Route>
+          <Route exact path="/Design-Project/TheCoffeeShop" element={<TheCoffeeApp />}></Route>
+          <Route exact path="/Design-Project/FashionAwards" element={<FashionAwards/>}></Route>
+        </Routes>
+      </Router>
+          
     </div>
   );
 }
