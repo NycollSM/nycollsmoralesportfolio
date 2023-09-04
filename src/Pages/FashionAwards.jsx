@@ -6,7 +6,7 @@ import Footer from '../components/footer/footer';
 // Images
 import PaperWFA from '../images/design/PaperW-FA.jpeg';
 import UserPersona from '../images/design/UserPersona-FashionAW.png';
-import HeroBannerFA from '../images/design/Fashion-awards-hero.png';
+import HeroBannerFA from '../images/design/Awwards.png';
 import ArchitectureFA from '../images/design/architecture-fashioaw.png';
 import HomeLow from '../images/design/HomePageAW-low.png';
 import LogInLow from '../images/design/LogIn-AW-low.png';
@@ -89,13 +89,12 @@ function Awwards() {
         </Col>  
       </Row>
       <Row className='py-4'>
+        <Col sm={8} className=' px-4'>
+          <img src={ArchitectureFA} alt="" className='img-fluid rounded center-block' />
+        </Col>  
         <Col sm={4} className='align-self-center px-2'>
           <h2>Information Architecture</h2>
           <p className='fs-5'>Informed by comprehensive research and user requirements, prioritizing the presentation of the 'Nominee Designers' emerged as a strategic imperative. This approach ensures alignment with user expectations and preferences.</p>
-        </Col>
-  
-        <Col sm={8} className=' px-4'>
-          <img src={ArchitectureFA} alt="" className='img-fluid rounded center-block px-4' />
         </Col>
       </Row>
       <Row className='py-4'>
@@ -187,12 +186,6 @@ function Awwards() {
           <p class='fs-5'>My journey traversed the transition from low-fidelity wireframes, which laid the blueprint within our Information Architecture, to high-fidelity counterparts tailored for both desktop and mobile interfaces. This journey was punctuated by a commitment to device preferences, promising a cohesive and tailored experience across platforms.</p>
           <p class='fs-5'>The UI design captured the essence of the autumn season with a carefully chosen dark color palette, mirroring the ambiance of the event scheduled for October. This visual symphony enveloped users in a seasonal embrace, evoking anticipation for the event's immersive experience.</p>
           <p class='fs-5'>In retrospect, this project was more than an evolution—it was a voyage through the confluence of fashion, design, and user-centricity. It showcased how a strategic amalgamation of user insights, meticulous architecture, and aesthetic excellence can coalesce into an extraordinary digital experience that reverberates through the corridors of fashion's finest moments.</p>
-
-
-
-        
-          
-          
         </Col>
       </Row>
       

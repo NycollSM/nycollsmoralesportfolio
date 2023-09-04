@@ -85,14 +85,15 @@ function CoffeeShop() {
         </Col>  
       </Row>
       <Row className='py-4'>
+        
+        <Col sm={8} className=' py-4 px-4'>
+          <img src={UserJourney} alt="" className='img-fluid rounded center-block px-4' />
+        </Col>
         <Col sm={4} className='align-self-center px-2'>
           <h2>User Journey Map</h2>
           <p className='fs-5'>Mapping Daniela's user journey revealed how the app at the moment is not satisfying the user's expectations and how helpful it would be to have access to a dedicated Coffee Shop app.</p>
         </Col>
   
-        <Col sm={8} className=' py-4 px-4'>
-          <img src={UserJourney} alt="" className='img-fluid rounded center-block px-4' />
-        </Col>
       </Row>
       <Row className='py-4'>
         <Col sm={4} className='align-self-center py-4 px-4'>
@@ -161,7 +162,7 @@ function CoffeeShop() {
         <Col sm={2} className='pt-4 px-4'> <img src={ConformationHigh} className='img-fluid rounded ' alt="" /></Col>
       </Row>
       <Row className='py-4'>
-        <Col sm={8} className='pt-4 px-4'>
+        <Col sm={12} className='py-4 px-4'>
           <h2>Takeaways</h2>
           <h4>Accessibility considerations</h4>
           <ol className='fs-5'>

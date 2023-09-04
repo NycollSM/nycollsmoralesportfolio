@@ -9,7 +9,7 @@ import Img2 from '../../images/design/Reports-mk.png';
 import Img3 from '../../images/design/dr-lookup-mk.png';
 import Img4 from '../../images/design/subjectline-mk.png';
 import CoffeeShop from '../../images/design/coffee-shop-mockup.png';
-import FAImg from '../../images/design/Fashion-awards-square1.png'
+import FAImg from '../../images/design/Awwards.png';
 {/*import Modal1 from './Model';*/};
 
 function CaseStudies() {
