@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/nycollsmoralesportfolio/static/css/main.bc112d24.css",
+    "main.js": "/nycollsmoralesportfolio/static/js/main.e81237b0.js",
+    "static/media/subjectline-mk.png": "/nycollsmoralesportfolio/static/media/subjectline-mk.1eacb16b8859978a3288.png",
+    "static/media/dr-lookup-mk.png": "/nycollsmoralesportfolio/static/media/dr-lookup-mk.9a7db0d30b18afe13510.png",
+    "static/media/Reports-mk.png": "/nycollsmoralesportfolio/static/media/Reports-mk.1604c7f0cc0f50a341a7.png",
+    "static/media/Dashboard-mk.png": "/nycollsmoralesportfolio/static/media/Dashboard-mk.9e87dda17bd49d348e08.png",
+    "static/media/DalCR.png": "/nycollsmoralesportfolio/static/media/DalCR.3017ff352e183e2f73ee.png",
+    "static/media/proxy2.PNG": "/nycollsmoralesportfolio/static/media/proxy2.0d7f09991ada560adc61.PNG",
+    "static/media/coffee-shop-mockup.png": "/nycollsmoralesportfolio/static/media/coffee-shop-mockup.7614803981ebffb463da.png",
+    "static/media/Ecommerce.png": "/nycollsmoralesportfolio/static/media/Ecommerce.b3d5c8a65aacd71c5a6f.png",
+    "static/media/dogegram-mockup.jpg": "/nycollsmoralesportfolio/static/media/dogegram-mockup.1f23835f90d86adeb530.jpg",
+    "static/media/municipalidad.jpg": "/nycollsmoralesportfolio/static/media/municipalidad.218567f76c12c698a27b.jpg",
+    "static/media/mockup.jpg": "/nycollsmoralesportfolio/static/media/mockup.2cfc318505c113b0edae.jpg",
+    "static/media/about4.jpg": "/nycollsmoralesportfolio/static/media/about4.beb870307ff7dea5b101.jpg",
+    "static/media/camaleon.jpg": "/nycollsmoralesportfolio/static/media/camaleon.1947e82c4ea0e507fb4e.jpg",
+    "static/media/about3.jpg": "/nycollsmoralesportfolio/static/media/about3.de0d7d5c5b87a5258326.jpg",
+    "static/media/cherry.png": "/nycollsmoralesportfolio/static/media/cherry.36403d25f230ddede812.png",
+    "static/media/E-commerce.jpg": "/nycollsmoralesportfolio/static/media/E-commerce.d745e871b3dcc5e49c4c.jpg",
+    "static/media/trivias.PNG": "/nycollsmoralesportfolio/static/media/trivias.5e6206e0485486d7eccc.PNG",
+    "index.html": "/nycollsmoralesportfolio/index.html",
+    "main.bc112d24.css.map": "/nycollsmoralesportfolio/static/css/main.bc112d24.css.map",
+    "main.e81237b0.js.map": "/nycollsmoralesportfolio/static/js/main.e81237b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc112d24.css",
+    "static/js/main.e81237b0.js"
+  ]
+}

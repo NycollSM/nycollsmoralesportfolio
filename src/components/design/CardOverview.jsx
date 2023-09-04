@@ -11,8 +11,8 @@ function CardDescription () {
   const [model, setModel] = useState(false);
   const [tempData, setTempData] = useState([]);
   
-  const getData = (img, title, desc, fullDescr, problem, duration, role, responsabilities) => {
-    let tempData = [img, title, desc, fullDescr, problem, duration, role, responsabilities];
+  const getData = (img, title, desc, fullDescr, problem, duration, role, responsabilities, FigmaImg, video) => {
+    let tempData = [img, title, desc, fullDescr, problem, duration, role, responsabilities,FigmaImg, video];
     setTempData(item => [1, ...tempData])
     console.warn(tempData);
     return setModel(true);
@@ -35,7 +35,7 @@ function CardDescription () {
               <Col sm={8} className='pt-4 px-4'>
                 <h3>{item.title}</h3>
                 <p className='fs-4'>{item.desc}</p>
-                <Button variant="primary"  className='btn-bd-primary' onClick={() =>  getData(item.title, item.desc, item.imgScr, item.fullDescr, item.problem, item.duration, item.role, item.responsabilities)}>
+                <Button variant="primary"  className='btn-bd-primary' onClick={() =>  getData(item.title, item.desc, item.imgScr, item.fullDescr, item.problem, item.duration, item.role, item.responsabilities,item.FigmaImg, item.video)}>
                   Find out more
               </Button>
               </Col>
@@ -47,7 +47,7 @@ function CardDescription () {
         
       </Container>
       {
-        model === true ? <Model  img={tempData[3]} title={tempData[1]} desc={tempData[2]} fullDescr={tempData[4]} problem={tempData[5]} duration={tempData[6]} role={tempData[7]} responsabilities={tempData[8]} hide={() => setModel(false) } /> : ''
+        model === true ? <Model  img={tempData[3]} title={tempData[1]} desc={tempData[2]} fullDescr={tempData[4]} problem={tempData[5]} duration={tempData[6]} role={tempData[7]} responsabilities={tempData[8]} FigmaImg={tempData[9]} video={tempData[10]} hide={() => setModel(false) } /> : ''
       }
        
     </div>
