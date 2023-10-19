@@ -23,7 +23,6 @@ function App() {
           <Route exact path="/Design-Project/FashionAwards" element={<FashionAwards/>}></Route>
         </Routes>
       </Router>
-          
     </div>
   );
 }
